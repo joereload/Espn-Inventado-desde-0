@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+ background: linear-gradient(to right, rgb(226, 211, 211), rgb(128, 40, 0)) ;
+ margin: 30px;
+}
+
+.boxScore-container {
+
+
+  background-color: rgb(160, 155, 155);
+  width: 95% ;
+  height: 190px;
+  border: solid black 1px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.boxScore-container h3 {
+  text-align: center;
+
+}
+
+.boxScore-container .boxScores-squares {  
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.boxScore-container .boxScores-squares ul {  
+
+  display: flex;
+  max-width: 30px;
+  height: 100%;
+  padding: 20px;
+  padding-top: 40px;
+  align-items: stretch;
+  justify-content: flex-start;
+  
+}
+
+.boxScore-container .boxScores-squares .boxes  li table {
+
+  position: relative;
+  bottom: 30px;
+  height: 20%;
+  max-width: 50px;
+  background-color: solid rgb(87, 82, 82);
+  border: solid rgb(87, 82, 82) 1px;
+  justify-content: center;
+
+}
+
+.boxScore-container .boxScores-squares .boxes  li table tr {
+
+  font-size: 10px;
+  box-sizing: content-box;
+  border: solid black 1px;
+  padding: 5px;
+
+}
